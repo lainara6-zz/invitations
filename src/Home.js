@@ -1,6 +1,6 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import { Link, Paper } from "@material-ui/core";
+import { Paper } from "@material-ui/core";
 import data from "./data.json";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       }}
     >
       <Paper
-        elevation="0"
+        elevation={0}
         style={{
           width: '280px',
           padding: "20px",
@@ -39,7 +39,8 @@ function App() {
           {data.map((group) => {
             return (
               <button
-                onClick={() => history.push("/invitations/list", {group})}
+                key={group.name}
+                onClick={() => history.push(`/invitations/${group.name}`)}
                 style={{
                   color: "#4f4f4f",
                   fontSize: '16px',
