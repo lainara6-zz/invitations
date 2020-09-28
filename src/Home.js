@@ -19,6 +19,7 @@ function App() {
       <Paper
         elevation="0"
         style={{
+          width: '280px',
           padding: "20px",
           borderRadius: 4,
           border: "1px solid #d9d9d9",
@@ -38,13 +39,13 @@ function App() {
           {data.map((group) => {
             return (
               <button
-                onClick={() => history.push("/list", {group})}
+                onClick={() => history.push("/invitations/list", {group})}
                 style={{
                   color: "#4f4f4f",
                   fontSize: '16px',
                   padding: "8px 16px",
                   margin: "8px 0px",
-                  width: '240px',
+                  width: '260px',
                   backgroundColor: "#eaeaea",
                   borderRadius: 2,
                   border: "1px solid #e1e1e1",
