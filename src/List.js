@@ -8,8 +8,8 @@ import TableRow from "@material-ui/core/TableRow";
 import data from "./data.json";
 
 function App() {
-  const { name } = useParams();
-  const group = data.find((obj) => obj.name === name);
+  const { path } = useParams();
+  const group = data.find((obj) => obj.path === path);
   return (
     <div
       style={{
@@ -21,7 +21,7 @@ function App() {
         paddingBottom: "20px",
       }}
     >
-      <h3 style={{ color: "#0047ab", textAlign: "center" }}>{name}</h3>
+      <h3 style={{ color: "#0047ab", textAlign: "center" }}>{group.name}</h3>
       {group ? (
         <Table
           size="small"
@@ -30,20 +30,18 @@ function App() {
         >
           <TableHead>
             <TableRow>
-              <TableCell style={{ color: "#0047ab", fontWeight: 500 }}>
-                លេខរៀង
-              </TableCell>
+              <TableCell style={{ color: "#0047ab" }}>លេខរៀង</TableCell>
               <TableCell style={{ color: "#0047ab" }}>ឈ្មោះភ្ញៀវ</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
-            {group.guests.map((name, index) => {
+            {group.guests.map((item, index) => {
               return (
                 <TableRow key={index}>
                   <TableCell style={{ color: "#4f4f4f" }}>
                     {index + 1}
                   </TableCell>
-                  <TableCell style={{ color: "#4f4f4f" }}>{name}</TableCell>
+                  <TableCell style={{ color: "#4f4f4f" }}>{item}</TableCell>
                 </TableRow>
               );
             })}

@@ -39,8 +39,8 @@ function App() {
           {data.map((group) => {
             return (
               <button
-                key={group.name}
-                onClick={() => history.push(`/invitations/${group.name}`)}
+                key={group.path}
+                onClick={() => history.push(`/invitations/${group.path}`)}
                 style={{
                   color: "#4f4f4f",
                   fontSize: '16px',
