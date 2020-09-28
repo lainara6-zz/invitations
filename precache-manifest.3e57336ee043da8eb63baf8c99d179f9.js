@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a4544b2273a5eb093881122141983a39",
+    "revision": "f7e259d88a6b02b162ba142c04052987",
     "url": "/invitations/index.html"
   },
   {
-    "revision": "59d85c7038b3eebe8e80",
+    "revision": "205cd78fa91ad42e672e",
     "url": "/invitations/static/css/2.9b79975c.chunk.css"
   },
   {
-    "revision": "6bf6ae02b836accc057b",
+    "revision": "d5318f360e6bd08aa962",
     "url": "/invitations/static/css/main.9a9f0297.chunk.css"
   },
   {
-    "revision": "59d85c7038b3eebe8e80",
-    "url": "/invitations/static/js/2.86fd3eff.chunk.js"
+    "revision": "205cd78fa91ad42e672e",
+    "url": "/invitations/static/js/2.756f06f3.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/invitations/static/js/2.86fd3eff.chunk.js.LICENSE.txt"
+    "url": "/invitations/static/js/2.756f06f3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6bf6ae02b836accc057b",
-    "url": "/invitations/static/js/main.de1dbe8d.chunk.js"
+    "revision": "d5318f360e6bd08aa962",
+    "url": "/invitations/static/js/main.8eb88b36.chunk.js"
   },
   {
     "revision": "b3a6414a41b28ce743df",
