@@ -1,11 +1,63 @@
-import React from 'react';
-import {useHistory} from 'react-router-dom'
+import React from "react";
+import { useHistory } from "react-router-dom";
+import { Link, Paper } from "@material-ui/core";
+import data from "./data.json";
 
 function App() {
   const history = useHistory();
   return (
-    <div className="App">
-      <button type='button' onClick={() => history.push('/list')}>List</button>
+    <div
+      style={{
+        flex: 1,
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        margin: "40px 5px",
+      }}
+    >
+      <Paper
+        elevation="0"
+        style={{
+          padding: "20px",
+          borderRadius: 4,
+          border: "1px solid #d9d9d9",
+        }}
+      >
+        <h3 style={{ color: "#0047ab", textAlign: "center" }}>
+          Wedding Invitation
+        </h3>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: 'column',
+            padding: "10px 10px",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          {data.map((group) => {
+            return (
+              <button
+                onClick={() => history.push("invitations/list", {group})}
+                style={{
+                  color: "#4f4f4f",
+                  fontSize: '16px',
+                  padding: "8px 16px",
+                  margin: "4px 0px",
+                  width: '240px',
+                  backgroundColor: "#eaeaea",
+                  borderRadius: 2,
+                  border: "1px solid #e1e1e1",
+                  cursor: 'pointer'
+                }}
+              >
+                {group.name}
+              </button>
+            );
+          })}
+        </div>
+      </Paper>
     </div>
   );
 }
