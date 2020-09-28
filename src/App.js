@@ -13,7 +13,7 @@ function App() {
     <Router>
       <div>
         <Switch>
-          <Route path="/invitations/list">
+          <Route path="/list">
             <List />
           </Route>
           <Route path="/">

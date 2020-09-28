@@ -13,7 +13,7 @@ function App() {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        margin: "40px 5px",
+        padding: '20px'
       }}
     >
       <Paper
@@ -31,7 +31,6 @@ function App() {
           style={{
             display: "flex",
             flexDirection: 'column',
-            padding: "10px 10px",
             justifyContent: "center",
             alignItems: "center",
           }}
@@ -39,12 +38,12 @@ function App() {
           {data.map((group) => {
             return (
               <button
-                onClick={() => history.push("invitations/list", {group})}
+                onClick={() => history.push("/list", {group})}
                 style={{
                   color: "#4f4f4f",
                   fontSize: '16px',
                   padding: "8px 16px",
-                  margin: "4px 0px",
+                  margin: "8px 0px",
                   width: '240px',
                   backgroundColor: "#eaeaea",
                   borderRadius: 2,

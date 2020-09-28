@@ -24,7 +24,7 @@ function App() {
       <h3 style={{ color: "#0047ab", textAlign: "center" }}>
         {location.state.group.name}
       </h3>
-      <Table size="small" style={{ maxWidth: "340px" }} aria-label="invitation list">
+      <Table size="small" style={{ maxWidth: "400px" }} aria-label="invitation list">
         <TableHead>
           <TableRow>
             <TableCell style={{ color: "#0047ab" }}>លេខរៀង</TableCell>
