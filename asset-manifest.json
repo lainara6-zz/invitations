@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/invitations/static/css/main.9a9f0297.chunk.css",
-    "main.js": "/invitations/static/js/main.8eb88b36.chunk.js",
-    "main.js.map": "/invitations/static/js/main.8eb88b36.chunk.js.map",
+    "main.js": "/invitations/static/js/main.25aff097.chunk.js",
+    "main.js.map": "/invitations/static/js/main.25aff097.chunk.js.map",
     "runtime-main.js": "/invitations/static/js/runtime-main.8f70c319.js",
     "runtime-main.js.map": "/invitations/static/js/runtime-main.8f70c319.js.map",
     "static/css/2.9b79975c.chunk.css": "/invitations/static/css/2.9b79975c.chunk.css",
     "static/js/2.756f06f3.chunk.js": "/invitations/static/js/2.756f06f3.chunk.js",
     "static/js/2.756f06f3.chunk.js.map": "/invitations/static/js/2.756f06f3.chunk.js.map",
     "index.html": "/invitations/index.html",
-    "precache-manifest.3e57336ee043da8eb63baf8c99d179f9.js": "/invitations/precache-manifest.3e57336ee043da8eb63baf8c99d179f9.js",
+    "precache-manifest.c5c1aed3fef0a67bd4ff925a34ce30c7.js": "/invitations/precache-manifest.c5c1aed3fef0a67bd4ff925a34ce30c7.js",
     "service-worker.js": "/invitations/service-worker.js",
     "static/css/2.9b79975c.chunk.css.map": "/invitations/static/css/2.9b79975c.chunk.css.map",
     "static/css/main.9a9f0297.chunk.css.map": "/invitations/static/css/main.9a9f0297.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.9b79975c.chunk.css",
     "static/js/2.756f06f3.chunk.js",
     "static/css/main.9a9f0297.chunk.css",
-    "static/js/main.8eb88b36.chunk.js"
+    "static/js/main.25aff097.chunk.js"
   ]
 }
